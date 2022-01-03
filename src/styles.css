@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  text-align: center;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(3, 143, 210, 1) 100%,
+    rgba(2, 162, 222, 1) 100%,
+    rgba(4, 118, 193, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#heading {
+  /* border-top: 1px solid yellow; */
+  border-bottom: 1px dashed yellow;
+  padding: 1rem;
+  color: antiquewhite;
+}
+#input-styling {
+  text-align: center;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border: none;
+  margin-bottom: 2rem;
+  background-color: aliceblue;
+  /* font-size: 2rem; */
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.foodStyle {
+  color: yellow;
+}
+
+#output {
+  border-radius: 1rem;
+  border-bottom: 2px solid yellow;
+  border-top: 2px solid yellow;
+  padding: 0.5rem;
+  max-width: 10rem;
+  margin: auto;
+  color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#emojishow {
+  display: inline-block;
+  margin: 1rem;
+  outline: 1px solid yellow;
+  border-radius: 0.5rem;
+  /* border: 1px solid red; */
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+small {
+  display: block;
+  margin: 2rem;
+  color: gray;
+}
